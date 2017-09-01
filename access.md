@@ -1,30 +1,20 @@
 ---
 layout: page
-title: Access to IDIA Machines
+title: Access to IDIA Cloud
 permalink: /access/
 ---
 
-This page provides details on how to get access to the IDIA virtual machines. While this page is
-specific to the IDIA-Pipelines project, the details related to requesting access and connecting to a
-machine is identical. 
+This page provides details on how to obtain access to the virtual machines in the IDIA cloud system.
 
-In particular, please mention the team that you are a part of when you request access. This is
-extremely important, since it will help us provide you with access to the relevant project files.
-
-# Joining the IDIA Pipelines Team
-Access to the IDIA-Pipeline resources can be arranged if you are part of the **Pipelines** Team.
-Please contact Bradley Frank ([bradley@idia.ac.za][brad-email]) if you are interested in joining.
-
-[Documentation][idia-pipelines] and [wiki][idia-pipelines-wiki] access is provided through a GitHub
-project, so please sign-up to GitHub (if you haven't already) and join the [IDIA
-Pipelines][idia-pipelines] repo as a contributor.
+Please identify the projecct team that you are a part of when you request access. This is
+important, since it allows us to provide you with access to the relevant project files.
 
 # Requesting Access to the IDIA Machines
 
-If you are already part of an IDIA team, you can request access as follows:
+If you are already part of an IDIA project team, you can request access as follows:
 
-* Send an email to **support@arc.ac.za** with the following information:
-    * Please state which team you are a member of, e.g., the "IDIA Pipelines Team".
+* Send an email to **support@idia.ac.za** with the following information:
+    * The name of your project team.
     * Your home institution.
     * Your local phone number (so that we can call you if there's a security problem).
     * The MeerKAT science projects that you are involved in, if applicable.
@@ -38,10 +28,6 @@ This will enable you to log into all IDIA machines that connect to LDAP, allowin
 VMs using ssh using their SSH key without needing to use your password.
 
 # Access
-
-There are a pool of IDIA machines that are available for usage. Please note that the machine names
-mentioned here are meant for usage by the IDIA-Pipelines team. In practice, we will provide you with
-a machine name after you've requested access. 
 
 You can access IDIA machines via a Jupyter-Hub (preferred) or SSH (traditional). 
 
@@ -87,13 +73,10 @@ Incidentally, you can do this without ssh'ing into the machine -- simply open up
 the Jupyter-Hub and use this to change your password.
 
 # Storage
-There are several storage areas available. Most (all) Pipelines machines will have the IDIA storage
-attached. This means that you will have access to your work and your data on any system that you're
-logged into. 
+ All virtual machines will have the IDIA storage attached. You will have access to your work and your data on any system that you're
+logged into. Access to data is managed with Unix groups.
 
-Access to data is managed with Unix groups. 
-
-Please take careful note of the following.
+There are several storage areas available.
 
 * `/users/<username>/`, where `/users` is a shared BeeGFS volume.
 * `/data/users/<username>/`, where `/data` is a shared BeeGFS volume. This is the preferred space
@@ -104,21 +87,11 @@ Please take careful note of the following.
   BeeGFS volume). This is the preferred space for intermediate data products, e.g., you can use this
   space to do imaging.
 
-# Setting up your own VM. 
-Smaller VMs can be spun-up for (sub)-projects. Additionally, users will have to follow the
-aforementioned process to setup their accounts.
-
-Please use the Google form to design and [Request a VM][request-vm].
 
 # GitHub
 There are two important GitHub resources that project members can use:
-* [IDIA-Pipelines Blog][idia-pipelines]: This is the repo for this website, and there is an
-  associated [wiki][idia-pipelines-wiki] for project members to share information. 
-* [IDIA Containers][idia-containers]: This is very important repository for the
-  [Singularity][singularity] containers used at IDIA.
+* [IDIA Containers][idia-containers]: This is repository for the [Singularity][singularity] containers used at IDIA.
 
-[idia-pipelines]:  https://github.com/idia-pipelines/idia-pipelines.github.io
-[idia-pipelines-wiki]:  https://github.com/idia-pipelines/idia-pipelines.github.io/wiki
 [idia-containers]: https://github.com/AfricanResearchCloud/idia-containers
 [singularity]: http://singularity.lbl.gov/
 [sshkey]: https://confluence.atlassian.com/bitbucketserver/creating-ssh-keys-776639788.html
