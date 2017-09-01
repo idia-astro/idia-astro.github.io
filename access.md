@@ -6,9 +6,6 @@ permalink: /access/
 
 This page provides details on how to obtain access to the virtual machines in the IDIA cloud system.
 
-Please identify the projecct team that you are a part of when you request access. This is
-important, since it allows us to provide you with access to the relevant project files.
-
 # Requesting Access to the IDIA Machines
 
 If you are already part of an IDIA project team, you can request access as follows:
@@ -20,6 +17,8 @@ If you are already part of an IDIA project team, you can request access as follo
     * The MeerKAT science projects that you are involved in, if applicable.
     * Your preferred username, first-name and last-name.
     * Your [ssh public key][sshkey].
+    
+Please be sure to identify the project team that you are a part of. This is important, as it allows us to provide you with access to the relevant project files.
 
 Your username, password and SSH public key will be added to LDAP (default username will be created
 from pre-@ part of email)
