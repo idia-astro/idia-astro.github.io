@@ -32,6 +32,15 @@ As of September 2017 the following containers are available:
   * Includes commonly used tools for source-finding and data inspection including pyBDSF and AEGEAN. For more details consult
     our open [Github Issue][sfissues] on the topic.
 
+### Running Containers
+
+All base cloud image for IDIA will include singularity and also be added to the sudoers environment.  To run a container
+from the command line simply enter `singularity run <container>, for example to run the casa-stable container`
+
+* `singularity run casa-stable.img`
+
+From the Jupter Hub simply open a notebook selecting the desired container from the `new` menu, 
+
 ### Reporting a bug / Requesting Software
 Visit our [Github][github-containers] repo and open an **Issue**. 
 #### Reporting a bug
@@ -41,10 +50,6 @@ details on the expected behaviour, and possible ideas on how to fix the bug.
 Provide the **name** of the package, the **location** or **link** to the repository or website, and
 the name of the *existing* or *new* container in which to install the software package. 
 
-All base cloud image for IDIA will include singularity and also be added to the sudoers environment.  To run a container
-from the command line simply enter `singularity run <container>, for example to run the casa-stable container
-
-* `singularity run casa-stable.img`
 
 
 
