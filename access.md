@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Access to IDIA Cloud
+title: Access to the IDIA Cloud
 permalink: /access/
 ---
 
