@@ -6,7 +6,7 @@ permalink: /access/
 
 This page provides details on how to obtain access to the virtual machines in the IDIA cloud system.
 
-# Requesting Access to the IDIA Machines
+# Requesting Access to the IDIA Virtual Machines
 
 If you are already part of an IDIA project team, you can request access as follows:
 
