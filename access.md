@@ -89,8 +89,7 @@ There are several storage areas available.
 
 
 # GitHub
-There are two important GitHub resources that project members can use:
-* [IDIA Containers][idia-containers]: This is repository for the [Singularity][singularity] containers used at IDIA.
+* [IDIA Containers][idia-containers]: Provides a repository for the [Singularity][singularity] containers used at IDIA.
 
 [idia-containers]: https://github.com/AfricanResearchCloud/idia-containers
 [singularity]: http://singularity.lbl.gov/
