@@ -39,7 +39,7 @@ from the command line simply enter `singularity run <container>`, for example to
 
 * `singularity run casa-stable.img`
 
-From the Jupter Hub simply open a notebook selecting the desired container from the `new` menu, 
+From the Jupter Hub simply open a notebook selecting the desired container from the `new` menu. 
 
 ### Reporting a bug / Requesting Software
 Visit our [Github][github-containers] repo and open an **Issue**. 
