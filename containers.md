@@ -4,19 +4,20 @@ title: Software Containers
 permalink: /containers/
 ---
 # Overview
-IDIA software is available and managed using [Singularity][singularity] containers. You can find
+IDIA software on virtual machines is available and managed using [Singularity][singularity] containers. You can find
 out more about what's available and how to use them on our dedicated [Github][github-containers]
 repository.
 
 ### Available Containers
-We have the following containers available:
+As of September 2017 the following containers are available:
 * `casa-stable`
   * Access: Terminal (SSH).
   * The most recent, stable build of **CASA**, and can only be used on
   the terminal (e.g., by SSH'ing into the machine). Includes *MPI* support.
 * `idia-jupyter-casa`
   * Access: Jupyter (https).
-  * A working development version of CASA which is controlled through the Jupyter Notebook.
+  * A working development version of CASA which is controlled through the Jupyter Notebook.  Open a new notebook with this kernel to
+  run casa as a python module in a jupyter notebook.
 * `idia-python-2.7`
   * Access: Terminal (SSH) and Jupyter (https).
   * Basic Python 2.7 stack.
@@ -28,13 +29,8 @@ We have the following containers available:
   * A comprehensive radio astronomy software environment that has **all** the packages in the
 * `source-finding`
   * Access: Terminal (SSH) and Jupyter (https).
-  * Includes commonly used tools for source-finding and data inspection. For more details consult
+  * Includes commonly used tools for source-finding and data inspection including pyBDSF and AEGEAN. For more details consult
     our open [Github Issue][sfissues] on the topic.
-  * This container is about 90% complete, but most of the important tools have already been
-    included. Please consult the [Github Issue][sfissues] for details on the current status.
-[KERN2][kern2] repository, which has been painstakingly created by Gijs Molenaar. Please visit
-[KERN2][kern2] to find out more about the available software. This includes source finding finding
-software (e.g., PYBDSF), CASA and MeqTrees-based tools, for example.
 
 ### Reporting a bug / Requesting Software
 Visit our [Github][github-containers] repo and open an **Issue**. 
@@ -47,7 +43,8 @@ the name of the *existing* or *new* container in which to install the software p
 
 # A Primer of [Singularity][singularity]
 ### Introduction
-The installation of [Singularity][singularity] is easy and simple to install. The important bits to
+All base cloud image for IDIA will include singularity and also be added to the sudoers environment. However, should
+you wish to install [Singularity][singularity] it is easy and simple. The important bits to
 note is that containers need to be built on a machine which have root access. This includes HPC
 interconnects, resource managers, file systems, GPUs and/or accelerators.
 
@@ -72,8 +69,7 @@ HPC center in China to running workloads on Amazon Web Services. The only requir
 ### Installation Procedure 
 Linux installation -  There are no dependencies required besides `gcc` and `make`. You need to be
 root on the system in order to complete the installation successfully. The `--prefix` could be changed
-by using the default to ensure that singularity is installed into the `OS PATH`. The base cloud image
-for IDIA will include singularity and also be added to the sudoers environment.
+by using the default to ensure that singularity is installed into the `OS PATH`. 
 
 Here's an example of how how to install [Singularity][singularity] on in Linux:
 
