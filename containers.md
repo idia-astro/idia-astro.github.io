@@ -35,7 +35,7 @@ As of September 2017 the following containers are available:
 ### Running Containers
 
 All base cloud image for IDIA will include singularity and also be added to the sudoers environment.  To run a container
-from the command line simply enter `singularity run <container>, for example to run the casa-stable container`
+from the command line simply enter `singularity run <container>`, for example to run the casa-stable container
 
 * `singularity run casa-stable.img`
 
