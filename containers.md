@@ -4,7 +4,7 @@ title: Software Containers
 permalink: /containers/
 ---
 # Overview
-At IDIA, software is available and managed using [Singularity][singularity] containers. You can find
+IDIA software is available and managed using [Singularity][singularity] containers. You can find
 out more about what's available and how to use them on our dedicated [Github][github-containers]
 repository.
 
