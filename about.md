@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-![IDIA]({{ site.url }}/assets/IDIA_logo.png=500x500)
+![IDIA]({{ site.url }}/assets/IDIA_logo.png){:height="200px" width="200px"}
 
 
 The IDIA Data Intensive Astronomy Cloud provides cloud-based computing facilities in support of researchers engaged in data intensive
