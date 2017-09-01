@@ -13,13 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: IDIA Pipelines 
-email: bradley@idia.ac.za
+title: IDIA User Documentation 
+email: support@idia.ac.za
 description: > # this means to ignore newlines until "baseurl:"
-  Documentation blog for the IDIA-Pipelines Project.
+  Documentation blog for IDIA cloud user information
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username: idia-pipelines
+github_username: idia-astro
 
 # Build settings
 markdown: kramdown
