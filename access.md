@@ -8,15 +8,7 @@ This page provides details on how to obtain access to the virtual machines in th
 
 # Requesting Access to the IDIA Virtual Machines
 
-If you are already part of an IDIA project team, you can request access as follows:
-
-* Send an email to **support@idia.ac.za** with the following information:
-    * The name of your project team.
-    * Your home institution.
-    * Your local phone number (so that we can call you if there's a security problem).
-    * The MeerKAT science projects that you are involved in, if applicable.
-    * Your preferred username, first-name and last-name.
-    * Your [ssh public key][sshkey].
+If you are already part of an IDIA project team, you can request access by filling out [this form](https://goo.gl/forms/fFfFqXElV7wZXfHe2).
     
 Please be sure to identify the project team that you are a part of. This is important, as it allows us to provide you with access to the relevant project files.
 
